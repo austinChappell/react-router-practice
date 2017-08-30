@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: $color-background;
+}
+
+.app {
+  font-family: sans-serif;
+}
+
+@import './Navbar.scss';
+@import './HeroImage.scss';
+@import './MainSection.scss';
+@import './Home.scss';
+@import './Menu.scss';
+@import './Contact.scss';
+@import './SocialMedia.scss';
+@import './Footer.scss';

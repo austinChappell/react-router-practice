@@ -1,0 +1,22 @@
+.hero-image {
+  background-image: url('https://static.pexels.com/photos/286764/pexels-photo-286764.jpeg');
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+  box-shadow: 0 15px 15px black;
+  color: white;
+  text-align: center;
+  h1 {
+    margin: 0;
+    font-weight: 500;
+    font-family: Arizonia, cursive;
+    font-style: italic;
+    font-size: 10.0em;
+  }
+  h2 {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    font-size: 4.0em;
+    font-weight: normal;
+  }
+}

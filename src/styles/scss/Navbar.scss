@@ -1,0 +1,34 @@
+@mixin active {
+  background: $color-white;
+  a {
+    color: $color-background;
+  }
+}
+
+.navbar {
+  background: $color-background;
+  padding: 20px 0 0;
+  font-weight: 100;
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .active {
+    @include active;
+  }
+  li {
+    list-style: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    &:hover {
+      cursor: pointer;
+      @include active;
+    }
+  }
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
+}

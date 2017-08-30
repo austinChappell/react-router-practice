@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-color: #2E2D28; }
+
+.app {
+  font-family: sans-serif; }
+
+.navbar {
+  background: #2E2D28;
+  padding: 20px 0 0;
+  font-weight: 100; }
+  .navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0; }
+  .navbar .active {
+    background: #FFF; }
+    .navbar .active a {
+      color: #2E2D28; }
+  .navbar li {
+    list-style: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+    .navbar li:hover {
+      cursor: pointer;
+      background: #FFF; }
+      .navbar li:hover a {
+        color: #2E2D28; }
+  .navbar a {
+    color: #FFF;
+    text-decoration: none; }
+
+.hero-image {
+  background-image: url("https://static.pexels.com/photos/286764/pexels-photo-286764.jpeg");
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+  box-shadow: 0 15px 15px black;
+  color: white;
+  text-align: center; }
+  .hero-image h1 {
+    margin: 0;
+    font-weight: 500;
+    font-family: Arizonia, cursive;
+    font-style: italic;
+    font-size: 10.0em; }
+  .hero-image h2 {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    font-size: 4.0em;
+    font-weight: normal; }
+
+.MainSection {
+  margin-top: -50px;
+  width: 70%;
+  margin: -50px auto 50px; }
+
+.Home .overlay {
+  background: rgba(0, 0, 0, 0.5); }
+
+.Home .section-title {
+  font-family: Arizonia, cursive;
+  font-size: 3.5em;
+  font-weight: normal;
+  margin: 0; }
+
+.Home .section-text {
+  padding: 50px 0;
+  color: white; }
+  .Home .section-text p {
+    font-weight: 100;
+    text-shadow: 1px 1px black;
+    font-size: 0.8em;
+    line-height: 1.8em;
+    letter-spacing: 0.1em; }
+
+.Home .first-section {
+  background-image: url("./images/cuisine-01.jpg");
+  background-size: cover; }
+  .Home .first-section .section-text {
+    width: 40%;
+    margin: 0 auto; }
+
+.Home .second-section {
+  background-image: url("./images/cuisine-02.jpg");
+  background-size: cover; }
+  .Home .second-section .section-text {
+    width: 30%;
+    margin-left: 10%; }
+
+.Home hr {
+  border-style: solid;
+  border-bottom: none; }
+
+.menu {
+  background-color: #FFF;
+  padding: 30px; }
+  .menu .menu-title {
+    margin: 0;
+    text-align: center; }
+
+.menu-section {
+  width: 70%;
+  margin: 10px auto; }
+  .menu-section .section-headers, .menu-section .section-row {
+    display: flex;
+    padding: 10px; }
+    .menu-section .section-headers h3, .menu-section .section-headers p, .menu-section .section-row h3, .menu-section .section-row p {
+      margin: 0; }
+  .menu-section .section-row {
+    border-top: 1px solid #AAA; }
+  .menu-section .dish {
+    flex-basis: 30%; }
+  .menu-section .description {
+    flex-basis: 60%; }
+  .menu-section .price {
+    flex-basis: 10%; }
+
+.Contact {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px; }
+  .Contact h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 10px 0; }
+  .Contact .map-div {
+    flex-basis: 60%; }
+    .Contact .map-div iframe {
+      border: none;
+      width: 100%;
+      height: 300px; }
+    .Contact .map-div p {
+      margin: 0;
+      font-size: 0.6em;
+      font-weight: 100; }
+  .Contact .contact-form-div {
+    flex-basis: 35%; }
+    .Contact .contact-form-div input, .Contact .contact-form-div textarea {
+      width: 100%;
+      display: block;
+      border-radius: 4px;
+      font-size: 1.0em;
+      padding: 0.3em;
+      margin: 10px 0;
+      border: none;
+      box-sizing: border-box; }
+    .Contact .contact-form-div textarea {
+      resize: none; }
+    .Contact .contact-form-div button {
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      background-color: white; }
+    .Contact .contact-form-div h3 {
+      font-weight: 200;
+      font-size: 1.0em;
+      margin-bottom: 5px; }
+
+.Footer p {
+  text-align: center;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 100; }

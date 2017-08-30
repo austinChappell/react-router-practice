@@ -1,0 +1,23 @@
+.menu-section {
+  width: 70%;
+  margin: 10px auto;
+  .section-headers, .section-row {
+    display: flex;
+    padding: 10px;
+    h3, p {
+      margin: 0;
+    }
+  }
+  .section-row {
+    border-top: 1px solid $color-gray;
+  }
+  .dish {
+    flex-basis: 30%;
+  }
+  .description {
+    flex-basis: 60%;
+  }
+  .price {
+    flex-basis: 10%;
+  }
+}

@@ -1,0 +1,10 @@
+.menu {
+  background-color: $color-white;
+  padding: 30px;
+  .menu-title {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@import './MenuSection.scss';

@@ -1,0 +1,42 @@
+.Home {
+  .overlay {
+    background: rgba(0,0,0,0.5);
+  }
+  .section-title {
+    font-family: Arizonia, cursive;
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0;
+  }
+  .section-text {
+    padding: 50px 0;
+    color: white;
+    p {
+      font-weight: 100;
+      text-shadow: 1px 1px black;
+      font-size: 0.8em;
+      line-height: 1.8em;
+      letter-spacing: 0.1em;
+    }
+  }
+  .first-section {
+    background-image: url('./images/cuisine-01.jpg');
+    background-size: cover;
+    .section-text {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+  .second-section {
+    background-image: url('./images/cuisine-02.jpg');
+    background-size: cover;
+    .section-text {
+      width: 30%;
+      margin-left: 10%;
+    }
+  }
+  hr {
+    border-style: solid;
+    border-bottom: none;
+  }
+}
